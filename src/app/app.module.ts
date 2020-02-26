@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
-import { CalculadoraModule } from './calculadora/calculadora.module';
+import { CalculadoraModule } from './calculadora';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, CalculadoraModule ],
