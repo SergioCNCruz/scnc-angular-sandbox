@@ -6,6 +6,7 @@ import { CalculadoraComponent } from './components';
   imports: [
     CommonModule
   ],
-  declarations: [CalculadoraComponent]
+  declarations: [CalculadoraComponent],
+  exports: [CalculadoraComponent]
 })
 export class CalculadoraModule { }
